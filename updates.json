@@ -1,0 +1,68 @@
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 323166566,
+      "message": {
+        "message_id": 31,
+        "from": {
+          "id": 232287787,
+          "is_bot": false,
+          "first_name": "puvluf",
+          "username": "alexsef",
+          "language_code": "en-RU"
+        },
+        "chat": {
+          "id": 232287787,
+          "first_name": "puvluf",
+          "username": "alexsef",
+          "type": "private"
+        },
+        "date": 1539513181,
+        "text": "\u041f\u0440\u0438\u0432\u0435\u0442"
+      }
+    },
+    {
+      "update_id": 323166567,
+      "message": {
+        "message_id": 32,
+        "from": {
+          "id": 232287787,
+          "is_bot": false,
+          "first_name": "puvluf",
+          "username": "alexsef",
+          "language_code": "en-RU"
+        },
+        "chat": {
+          "id": 232287787,
+          "first_name": "puvluf",
+          "username": "alexsef",
+          "type": "private"
+        },
+        "date": 1539513237,
+        "text": "\u043f\u0440\u0438\u0432\u0435\u0442"
+      }
+    },
+    {
+      "update_id": 323166568,
+      "message": {
+        "message_id": 34,
+        "from": {
+          "id": 232287787,
+          "is_bot": false,
+          "first_name": "puvluf",
+          "username": "alexsef",
+          "language_code": "en-RU"
+        },
+        "chat": {
+          "id": 232287787,
+          "first_name": "puvluf",
+          "username": "alexsef",
+          "type": "private"
+        },
+        "date": 1539513272,
+        "text": "\u043f\u0440\u0438\u0432\u0435\u0442"
+      }
+    }
+  ]
+}
