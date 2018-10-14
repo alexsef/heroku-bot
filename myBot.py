@@ -40,24 +40,26 @@ def send_message(chat_id, text):
 
 
 def main():
-	# while True:
-	# 	answer = get_message()
+	while True:
+		answer = get_message()
 
-	# 	if answer != None:
-	# 		chat_id = answer['chat_id']
-	# 		text = answer['text']
+		if answer != None:
+			chat_id = answer['chat_id']
+			text = answer['text']
 
-	# 		if 'привет' in text:
-	# 			send_message(chat_id, 'Hello ' + text)
-	# 	else:
-	# 		continue
+			if 'привет' in text:
+				send_message(chat_id, 'Hello ' + text)
+		else:
+			continue
 
-	# 	sleep(5)
+		sleep(20)
+
+		
 	# get_message()
-	d = get_updates()
+	# d = get_updates()
 
-	with open('updates.json', 'w') as file:
-		json.dump(d, file, indent=2)
+	# with open('updates.json', 'w') as file:
+	# 	json.dump(d, file, indent=2)
 
 
 if __name__ == '__main__':
